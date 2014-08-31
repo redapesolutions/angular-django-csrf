@@ -22,8 +22,8 @@
           if(allowedMethods.indexOf(config.method) === -1) {
             // do something on success
             config.headers[headerName] = $cookies[cookieName];
-            return config;
           }
+          return config;
         }
       }
     }];
