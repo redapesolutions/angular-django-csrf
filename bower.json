@@ -1,11 +1,12 @@
 {
   "name": "angular-django-csrf",
   "version": "0.0.1",
-  "authors": [
-    "matiboy <mathieu.chauvinc@gmail.com>"
-  ],
   "description": "Angular $http interceptor that adds CSRF token for Django",
   "main": "angular-django-csrf.js",
+  "authors": [
+    "Mathieu Chauvinc <mathieu.chauvinc@gmail.com>",
+    "Matias Singers <mail@matiassingers.com> (http://mts.io)"
+  ],
   "moduleType": [],
   "keywords": [
     "angular",
