@@ -1,6 +1,6 @@
 {
   "name": "angular-django-csrf",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Angular $http interceptor that adds CSRF token for Django",
   "main": "angular-django-csrf.js",
   "authors": [
