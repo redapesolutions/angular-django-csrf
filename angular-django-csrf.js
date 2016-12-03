@@ -21,7 +21,7 @@
         'request': function(config) {
           if(allowedMethods.indexOf(config.method) === -1) {
             // do something on success
-            config.headers[headerName] = $cookies[cookieName];
+            config.headers[headerName] = $cookies.get(cookieName);
           }
           return config;
         }
